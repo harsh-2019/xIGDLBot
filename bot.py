@@ -61,7 +61,7 @@ def echo(update, context):
 
 def stories(update, context):
     user = context.bot.get_chat_member(
-        chat_id='-1001225141087', user_id=update.message.chat_id)
+        chat_id='-1001895876711', user_id=update.message.chat_id)
     status = user["status"]
     if(status == 'left'):
         context.bot.send_message(chat_id=update.message.chat_id,
