@@ -27,7 +27,7 @@ help_reply_markup = InlineKeyboardMarkup(help_keyboard)
 def start(update, context):
     user = update.message.from_user
     chat_member = context.bot.get_chat_member(
-        chat_id='-1001225141087', user_id=update.message.chat_id)
+        chat_id='-1001895876711', user_id=update.message.chat_id)
     status = chat_member["status"]
     if(status == 'left'):
         context.bot.send_message(chat_id=update.message.chat_id,
